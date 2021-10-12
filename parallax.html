@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+
+    <style type="text/css">
+        body,
+        html {
+            margin: 0;
+            font: 16px "Lato", sans-serif;
+            color: #777;
+            height: 100%;
+
+
+        }
+
+        .conteudo {
+            color: #777;
+            background-color: white;
+            text-align: justify;
+            padding: 50px 80px;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            color: #111;
+            text-align: center;
+        }
+
+        p{
+            margin-bottom: 20px;
+        }
+
+        /* Efeito Parallax*/
+
+        .caixa1,
+        .caixa2,
+        .caixa3,
+        .caixa4,
+        .caixa5,
+        .caixa6 { 
+            position: relative;           
+            height: 100%;
+            opacity: 0.7;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+
+        }
+
+        .caixa1 {
+            background-image: url(imagens/imagem1.jpg);
+
+        }
+
+        .caixa2 {
+            background-image: url(imagens/imagem2.jpg);
+
+        }
+
+        .caixa3 {
+            background-image: url(imagens/imagem3.jpg);
+
+        }
+
+        .caixa4 {
+            background-image: url(imagens/imagem4.jpg);
+
+        }
+
+        .caixa5 {
+            background-image: url(imagens/imagem5.jpg);
+
+        }
+
+        .caixa6 {
+            background-image: url(imagens/imagem6.jpg);
+
+        }
+
+        .conteudo-titulo{
+            position:absolute;
+            left:0;
+            top:50%;
+            width:100%;
+            text-align:center;            
+
+        }
+
+        .conteudo-titulo span.titulo{
+            color: #fff;
+            background-color: #777;
+            padding:18px;
+            font-size: 25px;
+            letter-spacing: 5px; 
+            text-transform: uppercase;           
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="caixa1">
+        <div class="conteudo-titulo">
+            <span class="titulo">Passeio de Balões</span>
+        </div>
+    </div>
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed vestibulum porta feugiat. Nullam accumsan egestas libero.
+            Ut fermentum turpis in nisl egestas hendrerit.
+            Aenean nec vestibulum ante, ut efficitur velit.
+            Aliquam erat volutpat. Morbi non arcu et libero accumsan gravida.
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+            Quisque libero neque, varius eu faucibus vitae, venenatis et magna.
+            Maecenas posuere nibh a viverra blandit.
+            Etiam eget mattis mi, vel lacinia sapien.
+            Nullam quis massa sollicitudin, pretium nisl a, maximus velit.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed vestibulum porta feugiat. Nullam accumsan egestas libero.
+                Ut fermentum turpis in nisl egestas hendrerit.
+                Aenean nec vestibulum ante, ut efficitur velit.
+                Aliquam erat volutpat. Morbi non arcu et libero accumsan gravida.
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                Quisque libero neque, varius eu faucibus vitae, venenatis et magna.
+                Maecenas posuere nibh a viverra blandit.
+                Etiam eget mattis mi, vel lacinia sapien.
+                Nullam quis massa sollicitudin, pretium nisl a, maximus velit.</p>
+    </div>
+
+    <div class="caixa2">
+        <div class="conteudo-titulo">
+            <span class="titulo">Pegando a Estrada</span>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed vestibulum porta feugiat. Nullam accumsan egestas libero.
+            Ut fermentum turpis in nisl egestas hendrerit.
+            Aenean nec vestibulum ante, ut efficitur velit.
+            Aliquam erat volutpat. Morbi non arcu et libero accumsan gravida.
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+            Quisque libero neque, varius eu faucibus vitae, venenatis et magna.
+            Maecenas posuere nibh a viverra blandit.
+            Etiam eget mattis mi, vel lacinia sapien.
+            Nullam quis massa sollicitudin, pretium nisl a, maximus velit.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed vestibulum porta feugiat. Nullam accumsan egestas libero.
+                Ut fermentum turpis in nisl egestas hendrerit.
+                Aenean nec vestibulum ante, ut efficitur velit.
+                Aliquam erat volutpat. Morbi non arcu et libero accumsan gravida.
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                Quisque libero neque, varius eu faucibus vitae, venenatis et magna.
+                Maecenas posuere nibh a viverra blandit.
+                Etiam eget mattis mi, vel lacinia sapien.
+                Nullam quis massa sollicitudin, pretium nisl a, maximus velit.</p>
+    </div>
+    <div class="caixa3">
+        <div class="conteudo-titulo">
+            <span class="titulo">Pôr do Sol</span>
+        </div>
+    </div>
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed vestibulum porta feugiat. Nullam accumsan egestas libero.
+            Ut fermentum turpis in nisl egestas hendrerit.
+            Aenean nec vestibulum ante, ut efficitur velit.
+            Aliquam erat volutpat. Morbi non arcu et libero accumsan gravida.
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+            Quisque libero neque, varius eu faucibus vitae, venenatis et magna.
+            Maecenas posuere nibh a viverra blandit.
+            Etiam eget mattis mi, vel lacinia sapien.
+            Nullam quis massa sollicitudin, pretium nisl a, maximus velit.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed vestibulum porta feugiat. Nullam accumsan egestas libero.
+                Ut fermentum turpis in nisl egestas hendrerit.
+                Aenean nec vestibulum ante, ut efficitur velit.
+                Aliquam erat volutpat. Morbi non arcu et libero accumsan gravida.
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                Quisque libero neque, varius eu faucibus vitae, venenatis et magna.
+                Maecenas posuere nibh a viverra blandit.
+                Etiam eget mattis mi, vel lacinia sapien.
+                Nullam quis massa sollicitudin, pretium nisl a, maximus velit.</p>
+    </div>
+    <div class="caixa4">
+        <div class="conteudo-titulo">
+            <span class="titulo">Montanhas</span>
+        </div>
+    </div>
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed vestibulum porta feugiat. Nullam accumsan egestas libero.
+            Ut fermentum turpis in nisl egestas hendrerit.
+            Aenean nec vestibulum ante, ut efficitur velit.
+            Aliquam erat volutpat. Morbi non arcu et libero accumsan gravida.
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+            Quisque libero neque, varius eu faucibus vitae, venenatis et magna.
+            Maecenas posuere nibh a viverra blandit.
+            Etiam eget mattis mi, vel lacinia sapien.
+            Nullam quis massa sollicitudin, pretium nisl a, maximus velit.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed vestibulum porta feugiat. Nullam accumsan egestas libero.
+                Ut fermentum turpis in nisl egestas hendrerit.
+                Aenean nec vestibulum ante, ut efficitur velit.
+                Aliquam erat volutpat. Morbi non arcu et libero accumsan gravida.
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                Quisque libero neque, varius eu faucibus vitae, venenatis et magna.
+                Maecenas posuere nibh a viverra blandit.
+                Etiam eget mattis mi, vel lacinia sapien.
+                Nullam quis massa sollicitudin, pretium nisl a, maximus velit.</p>
+    </div>
+    <div class="caixa5">
+        <div class="conteudo-titulo">
+            <span class="titulo">Oceano</span>
+        </div>
+    </div>
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed vestibulum porta feugiat. Nullam accumsan egestas libero.
+            Ut fermentum turpis in nisl egestas hendrerit.
+            Aenean nec vestibulum ante, ut efficitur velit.
+            Aliquam erat volutpat. Morbi non arcu et libero accumsan gravida.
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+            Quisque libero neque, varius eu faucibus vitae, venenatis et magna.
+            Maecenas posuere nibh a viverra blandit.
+            Etiam eget mattis mi, vel lacinia sapien.
+            Nullam quis massa sollicitudin, pretium nisl a, maximus velit.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed vestibulum porta feugiat. Nullam accumsan egestas libero.
+                Ut fermentum turpis in nisl egestas hendrerit.
+                Aenean nec vestibulum ante, ut efficitur velit.
+                Aliquam erat volutpat. Morbi non arcu et libero accumsan gravida.
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                Quisque libero neque, varius eu faucibus vitae, venenatis et magna.
+                Maecenas posuere nibh a viverra blandit.
+                Etiam eget mattis mi, vel lacinia sapien.
+                Nullam quis massa sollicitudin, pretium nisl a, maximus velit.</p>
+    </div>
+    <div class="caixa6">
+        <div class="conteudo-titulo">
+            <span class="titulo">Praia</span>
+        </div>
+    </div>
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed vestibulum porta feugiat. Nullam accumsan egestas libero.
+            Ut fermentum turpis in nisl egestas hendrerit.
+            Aenean nec vestibulum ante, ut efficitur velit.
+            Aliquam erat volutpat. Morbi non arcu et libero accumsan gravida.
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+            Quisque libero neque, varius eu faucibus vitae, venenatis et magna.
+            Maecenas posuere nibh a viverra blandit.
+            Etiam eget mattis mi, vel lacinia sapien.
+            Nullam quis massa sollicitudin, pretium nisl a, maximus velit.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed vestibulum porta feugiat. Nullam accumsan egestas libero.
+                Ut fermentum turpis in nisl egestas hendrerit.
+                Aenean nec vestibulum ante, ut efficitur velit.
+                Aliquam erat volutpat. Morbi non arcu et libero accumsan gravida.
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                Quisque libero neque, varius eu faucibus vitae, venenatis et magna.
+                Maecenas posuere nibh a viverra blandit.
+                Etiam eget mattis mi, vel lacinia sapien.
+                Nullam quis massa sollicitudin, pretium nisl a, maximus velit.</p>
+    </div>
+
+</body>
+
+</html>
